@@ -1,0 +1,187 @@
+.home, 
+.home body,
+#main,
+#main .content,
+#pageWrap {
+    overflow: hidden;
+    display: block; width: 100%; height: 100%;
+    position: relative;
+}
+.page-nav {
+    position: absolute; right: 20px; top: 50%;
+    width: 20px; height: 80px;
+    margin-top: -40px;
+    overflow: hidden;
+    z-index: 99;
+}
+.page-nav a {
+    display: block; width: 20px; height: 20px;
+    overflow: hidden;
+    background: no-repeat url(../images/dot.png) 50% 50%;
+    text-decoration: none;
+}
+.page-nav .current {
+    background: no-repeat url(../images/dot_current.png) 50% 50%;
+}
+
+#btnNext {
+    display: block; width: 200px; height: 50px;
+    position: absolute; left: 50%; bottom: 0;
+    margin-left: -100px;
+    background: no-repeat url(../images/btn_next.png) 50% 50%;
+    z-index: 999;
+}
+#pageWrap {
+    position: absolute; left: 0; top: 0;
+}
+.page {
+    width: 100%; height: 100%;
+    position: relative;
+}
+.page-content {
+    position: relative;
+    width: 90%; height: 100%;
+    margin: 0 auto;
+}
+.page-info {
+    text-align: left;
+    width: 288px;
+    color: #fff;
+    position: absolute;
+}
+.page-info h2 {
+    font-size: 32px;
+    margin-bottom: 4px;
+
+}
+.page-info p {
+    font-size: 16px;
+}
+#page1 {
+    background: #18c3f7;
+    display: block;
+}
+#page1 .page-info {
+    right: 0; top: 50%;
+    margin-top: -140px;
+}
+#page1 .download {
+    position: absolute; top: 50%; right: 0;
+    width: 288px;
+}
+#page1 .crcode {
+    color: #fff;
+    font-size: 12px;
+    width: 100px;
+    text-align: center;
+}
+#page1 .btn-android {
+    display: block; width: 150px; height: 37px;
+    overflow: hidden;
+    background: no-repeat url(../images/s_btn_android.png);
+    line-height: 999;
+    position: absolute; right: 0; top: 63px;
+}
+#page1 .bg {
+    width: 436px; height: 387px;
+    position: absolute; top: 50%; left: -20px;
+    margin-top: -194px;
+}
+#page1 .bg1 {
+    z-index: 10;
+    background: no-repeat url(../images/s_page_1_1.png);
+}
+#page1 .bg2 {
+    margin-top: -394px;
+    z-index: 9;
+    background: no-repeat url(../images/s_page_1_2.png);
+}
+#page1 .bg3 {
+    margin-left: 100px;
+    z-index: 8;
+    background: no-repeat url(../images/s_page_1_3.png);
+}
+#page1 .bg4 {
+    margin-left: -100px;
+    z-index: 7;
+    background: no-repeat url(../images/s_page_1_4.png);
+}
+#page1 .bg5 {
+    margin-left: 150px;
+    z-index: 6;
+    background: no-repeat url(../images/s_page_1_5.png);
+}
+#page2 {
+    background: #33d27c;
+    display: block;
+}
+#page2 .page-info {
+    top: 50%; left: 0;
+    margin-top: -180px;
+}
+#page2 .bg {
+    width: 570px; height: 508px;
+    position: absolute; top: 50%; right: 0;
+    margin-top: -280px;
+}
+#page2 .bg1 {
+    background: no-repeat url(../images/s_page_2_1.png);
+}
+#page2 .bg2 {
+    display: none;
+    background: no-repeat url(../images/s_page_2_2.png);
+}
+#page2 .bg3 {
+    display: none;
+    background: no-repeat url(../images/s_page_2_3.png);
+}
+#page2 .bg4 {
+    display: none;
+    background: no-repeat url(../images/s_page_2_4.png);
+}
+#page2 .bg5 {
+    display: none;
+    background: no-repeat url(../images/s_page_2_5.png);
+}
+#page3 {
+    background: #eec464;
+    display: block;
+}
+#page3 .bg1 {
+    display: block; width: 378px; height: 378px;
+    position: absolute; left: 0; top: 50%;
+    margin-top: -180px;
+    background: no-repeat url(../images/page_3_1.png);
+}
+#page3 .bg2 {
+    display: block; width: 172px; height: 205px;
+    position: absolute; left: 60px; top: 50%;
+    margin-top: 30px;
+    background: no-repeat url(../images/page_3_2.png);
+}
+#page3 .page-info {
+    top: 50%; right: 0;
+    margin-top: -50px;
+}
+#page4 {
+    background: #fe6869;
+    display: block;
+}
+#page4 .bg {
+    display: block; width: 800px; height: 344px;
+    position: absolute; left: 50%; top: 60px;
+    margin-left: -400px;
+}
+#page4 .bg1 {
+    background: no-repeat url(../images/s_page_4_1.png);
+}
+#page4 .bg2 {
+    background: no-repeat url(../images/s_page_4_2.png);
+    display: none;
+}
+#page4 .page-info {
+    text-align: center;
+    left: 50%; top: 50%;
+    margin-left: -150px;
+    margin-top: 100px;
+}
